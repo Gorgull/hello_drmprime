@@ -262,6 +262,7 @@ static int do_display(drmprime_out_env_t *const de, AVFrame *frame)
         }
     }
 
+// Pierre: the call that makes the display update with the latest frame from FFmpeg
     ret = drmModeSetPlane(de->drm_fd, de->setup.planeId, de->setup.crtcId,
                           da->fb_handle, 0,
                           de->setup.compose.x, de->setup.compose.y,

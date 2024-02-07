@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/dev/Work/hello_drmprime",
+            "binaryPath": "/home/dev/Work/hello_drmprime/hello_drmprime",
+            "binaryArgs": []
+        }
+    ]
+}
